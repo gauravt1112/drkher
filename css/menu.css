@@ -1,0 +1,515 @@
+@font-face {
+    font-family: 'lubalgraph_md_btmedium';
+    src: url('fonts/lubgrhm-webfont.eot');
+    src: url('fonts/lubgrhm-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lubgrhm-webfont.woff2') format('woff2'),
+         url('fonts/lubgrhm-webfont.woff') format('woff'),
+         url('fonts/lubgrhm-webfont.ttf') format('truetype'),
+         url('fonts/lubgrhm-webfont.svg#lubalgraph_md_btmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'lubalgraph_bk_btbook';
+    src: url('fonts/lubgrhn_2-webfont.eot');
+    src: url('fonts/lubgrhn_2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lubgrhn_2-webfont.woff2') format('woff2'),
+         url('fonts/lubgrhn_2-webfont.woff') format('woff'),
+         url('fonts/lubgrhn_2-webfont.ttf') format('truetype'),
+         url('fonts/lubgrhn_2-webfont.svg#lubalgraph_bk_btbook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helvlightregular';
+    src: url('fonts/heln/heln-webfont.eot');
+    src: url('fonts/heln/heln-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/heln/heln-webfont.woff2') format('woff2'),
+         url('fonts/heln/heln-webfont.woff') format('woff'),
+         url('fonts/heln/heln-webfont.ttf') format('truetype'),
+         url('fonts/heln/heln-webfont.svg#helvlightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+.clearfix a:link, .clearfix a:visited { 
+
+color: #CC9830; 
+text-decoration: none;
+/* padding: 0.24em 0em; */
+font-size: 14px;
+line-height: 1.2em;
+text-align: center;
+text-transform: uppercase;
+position: relative;
+/* font-weight: 400; */
+display: inline-block;
+width: 70%;
+} 
+nav-main  #c1
+{
+	width:65%;
+}
+nav-main li  #c7
+{
+width: 90%;
+}
+ #smiley1
+{
+width: 90%;
+}
+.clearfix a:hover 
+{ 
+color: #E0CA9E;
+text-decoration: none;
+}
+.nav-row
+{
+	display :none;
+}
+nav-main {
+	
+	width: 100%;
+	font-size: 9pt;
+    font-family: 'helvlightregular';
+	/*float: right;
+	height: 190px; */
+	background: rgba(204,152,48,0.1);
+	/* position:fixed; */
+}
+nav-main #logo
+	{
+	float:left;
+	/* margin: 10px 20px; */
+	}
+	
+nav-main ul {
+	padding: 0;
+	margin-top: 43px;
+	width: calc(100% - 170px);
+	border-bottom: 5px solid #CC9830;
+	float: right;
+	/*  z-index: 100;
+	background: #FAEFF0; */
+}
+nav-main li {
+	display: inline;
+	float: left;
+	margin-bottom: 19px;
+	padding-left: 30px;
+}
+nav-main a {
+	color: #CC9830;
+	display: inline-block;
+	/* margin-left:15px;
+	margin-right:15px; */
+	text-align: center;
+	text-decoration: none;
+	line-height: 46px;
+	color: #000000;
+    font-family: 'helvlightregular';
+}
+nav-main li a {
+	
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+nav-main li:last-child a {
+	border-right: 0;
+}
+nav-main a:hover, nav-main a:active {
+	color: #98c93c;
+	
+	
+}
+
+.smiley {
+    width: 70%;
+    /* height: 12px; */
+   
+   /* background: url('../images/smiley.png') no-repeat left top; */
+	text-align:center;
+    opacity:0;
+	margin-top: 2px;
+}
+
+nav-main  li:hover .smiley, nav-main  li.active .smiley { opacity:1;  }
+
+nav-main li ul li:hover .smiley, nav-main  li ul li.active .smiley { opacity:1;  }
+
+nav-main a.active {
+	color: #98c93c; 
+}
+
+ #pull {
+	display: none;
+}
+
+
+
+.icon
+{
+float: right;
+margin-right: 24px;
+margin-top: 18px;
+}
+
+@media only screen  and (max-width: 2000px) and (min-width: 1681px) {
+
+nav-main li 
+{
+
+padding-left:  86px;
+}
+nav-main li  #c7
+{
+width: 90%;
+}
+
+#team2 {
+margin-bottom: 50px;
+margin-left: 65px;
+}
+}
+@media only screen  and (max-width: 1680px) and (min-width: 1601px) {
+
+nav-main li 
+{
+padding-left: 62px;
+}
+nav-main li  #c7
+{
+width: 86%;
+}
+}
+@media only screen  and (max-width: 1600px) and (min-width: 1441px) {
+
+nav-main li 
+{
+padding-left: 42px;
+}
+nav-main li  #c7
+{
+width: 86%;
+}
+}
+/*
+@media only screen  and (max-width: 1400px) and (min-width: 1355) {
+
+nav-main li 
+{
+
+padding-left: 46px;
+}
+nav-main li  #c7
+{
+width: 86%;
+}
+} */
+@media only screen and (max-width: 1354px) and (min-width: 1319px)  {
+
+nav-main li 
+{
+padding-left: 26px;
+
+}
+}
+
+@media only screen and (max-width: 1318px) and (min-width: 1284px)  {
+
+nav-main li 
+{
+padding-left: 22px;
+}
+}
+@media screen and (max-width: 1283px) and (min-width: 1270px) {
+
+nav-main li 
+{
+
+padding-left: 20px;
+}
+}
+@media only screen and (max-width: 1269px) and (min-width: 1250px) {
+
+nav-main li 
+{
+
+padding-left: 16px;
+}
+nav-main ul {
+
+margin: 51px auto;
+}
+}
+@media only screen and (max-width: 1249px) and (min-width: 1219px) {
+
+nav-main li 
+{
+
+padding-left: 14px;
+}
+
+nav-main ul {
+margin: 51px auto;
+}
+}
+@media only screen and (max-width: 1218px) and (min-width: 1193px) {
+
+nav-main li 
+{
+
+padding-left: 10px;
+}
+
+nav-main ul {
+
+margin: 51px auto;
+}
+}
+
+@media only screen and (max-width: 1192px) and (min-width: 1165px) {
+
+nav-main li 
+{
+
+padding-left: 6px;
+}
+nav-main ul {
+
+margin: 51px auto;
+}
+}
+@media only screen and (max-width: 1164px) and (min-width: 1109px) {
+
+nav-main li 
+{
+
+padding-left: 2px;
+}
+nav-main ul {
+
+margin: 51px auto;
+}
+}
+
+@media only screen and (max-width: 1108px) and (min-width: 1065px) {
+
+nav-main li 
+{
+
+padding-left: -4px;
+}
+
+nav-main ul {
+
+margin: 51px auto;
+}
+}
+@media only screen and (max-width: 1064px) and (min-width: 1036px) {
+
+nav-main li 
+{
+padding-left: -8px;
+}
+
+nav-main ul {
+
+margin: 51px auto;
+}
+}
+
+.close-menu
+{
+	display:none;
+
+}
+/*Styles for screen 1100px and lower*/
+@media only screen and (max-width: 1137px)  {
+
+
+
+body {
+    overflow-x: hidden;
+}
+
+.close-menu
+{
+	display:block;
+}
+.mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 15;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+.smiley {
+width: 100%;
+margin-bottom: 5px;
+}
+nav-main li #c7 {
+width: 100%;
+}
+ #smiley1
+{
+width: 100%;
+}
+/* ------------------------------------------------------------ *\
+|* ------------------------------------------------------------ *|
+|* Menus
+|* ------------------------------------------------------------ *|
+\* ------------------------------------------------------------ */
+/* general style for all menus */
+nav.menu {
+    position: fixed;
+    z-index: 20;
+    background-color: #FFF;
+    overflow: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+nav.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav.menu a {
+    font-weight: 300;
+    color: #fff;
+}
+nav.slide-menu-right
+ {
+    top: 0;
+    width: 300px;
+    height: 100%;
+}
+
+nav.slide-menu-right li
+{
+    display: block;
+    text-align: center;
+   border-bottom: solid 1px #CC9830;
+}
+
+nav.slide-menu-right li:first-child
+{
+    border-top: none;
+}
+
+nav.slide-menu-right li:last-child{
+    border-bottom: none;
+}
+
+nav.slide-menu-right a
+{
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+}
+
+nav.slide-menu-right p.close-menu
+ {
+	margin: 10px 141px;
+	padding: 0px 30px;
+	cursor: pointer;
+	background: url('../images/close_thumb.png')no-repeat;
+	width: 30px;
+	height: 30px;
+} 
+nav.slide-menu-right p.close-menu:hover
+ {
+	background:url('../images/close_hover.png')no-repeat;
+} 
+
+nav.slide-menu-right
+ {
+    right: -300px
+}
+
+body.smr-open nav.slide-menu-right
+{
+    right: 0
+}
+
+nav-main img#pull {
+		display: block;
+		position: relative;
+		margin-left: auto;
+		margin-top: 22px;
+	}
+	nav-main img#pull:after {
+		content:"";
+		background: url('../images/nav-icon.png') no-repeat;
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 75px;
+		top: 5px;
+	}
+	nav-main ul {
+
+margin: 61px auto;
+}
+	nav-main ul {
+	
+padding: 0;
+margin-top: 0px;
+ width: 100%; 
+ border-bottom: 5px solid #CC9830;
+ float: none; 
+}
+nav-main li {
+display: inline; 
+float: none; 
+ margin-bottom: 0px; 
+padding-left: 0px; 
+}
+}
+@media only screen and (max-width: 480px)
+{
+nav-main img#pull {
+margin-top: 22px;
+margin-right: 10px;
+
+}
+.icon {
+float: right;
+margin-right: 18px;
+margin-top: 18px;
+}
+}
+
+
+
+
+
+
+
